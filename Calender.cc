@@ -1,4 +1,6 @@
 #include <iostream>
+// #define CATCH_CONFIG_RUNNER
+// #include "catch.hpp"
 using namespace std;
 
 
@@ -18,6 +20,7 @@ string centerFunction(string input, int width);
 
 
 int main(){
+    // int results = Catch::Session().run();
     int year;
     char space;
     int monthnumber;
@@ -36,7 +39,7 @@ int main(){
     int startingDay = (dayOfTheWeek(year,monthnumber,1));
     
     printmonthnumbers(numOfDaysInAMonthVariable, startingDay);
-    return 0;
+    // return results;
 }
 
 
