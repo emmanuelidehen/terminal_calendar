@@ -1,2 +1,2 @@
 # Calendar
-a calender that builds itself based on userinput made in c++
+a calendar that builds itself based on user input made in c++
